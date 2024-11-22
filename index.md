@@ -27,7 +27,7 @@ This documentation provides information on how to consume chat completions on Ko
       openai.api_base = base_url
     
       try:
-          response = openai.Chat.completions.create(
+          response = openai.chat.completions.create(
               model="4o-kol",
               messages=[{"role": "user", "content": "hi"}],
               temperature=1,

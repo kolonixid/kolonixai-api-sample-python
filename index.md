@@ -44,7 +44,11 @@ This documentation provides information on how to consume chat completions on Ko
   except Exception as e:
       # Handle any other exceptions
       print(f"An error occurred: {e}")
-</details> <details> <summary>Implementation with Streaming</summary>
+  ```
+
+</details> 
+<details> 
+  <summary>Implementation with Streaming</summary>
 
 import json
 import openai

@@ -10,7 +10,9 @@ This documentation provides information on how to consume chat completions on Ko
 
 <details>
   <summary>Implementation without Streaming</summary>
-
+  
+  Please enable cookies if you are calling with async task, below only sample for sync task
+  
   ```python
       import json
       import openai
